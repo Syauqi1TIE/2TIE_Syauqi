@@ -1,16 +1,15 @@
 import { createRoot } from "react-dom/client";
-import TailwindCSS from "./TailwindCSS";
 import './tailwind.css';
-import UserForm from "./UserForm";
-import HitungGajiForm from "./HitungGajiForm";
+import FrameworkList from "./FrameworkList";
+import FrameworkListSearchFilter from "./FrameworkListSearchFilter";
 
 
 createRoot(document.getElementById("root"))
     .render(
         <div > 
                 
-                <UserForm/>
-                <HitungGajiForm/>
+            
+            <FrameworkListSearchFilter/>   
                      
         </div>
     );
